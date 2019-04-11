@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.MainActivity">
+
+<Button
+        android:id="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="266dp"
+        android:text="Accelerometer"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="266dp"
+        android:text="Kompass"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+</RelativeLayout>
